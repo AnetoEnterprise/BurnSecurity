@@ -10,7 +10,7 @@ Le système à deux types de sécurisation des fichiers multimédias (Audio, Vid
 
 Deziper le fichier BurnSecurityWebLinuxCGI.zip puis lancer votre terminal et tapez les commandes :
 
-cd BurnSecurityLinux
+cd BurnSecurityWebLinuxCGI
 
 cp -r ./AppsFinal/* /usr/lib/cgi-bin
 
@@ -31,7 +31,7 @@ chown www-data:www-data -R /var/www/html/*
 
 Deziper le fichier BurnSecurityWebLinuxCGI.zip puis lancer votre terminal et tapez les commandes :
 
-cd BurnSecurityLinux
+cd BurnSecurityWebLinuxCGI
 
 cp -r ./AppsFinal/* /var/www/cgi-bin
 
