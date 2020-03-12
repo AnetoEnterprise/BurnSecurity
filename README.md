@@ -44,3 +44,6 @@ sudo mkdir -p /var/www/html/ votresite
 cp -r ./Docs/* /var/www/html/ votresite
 
 chown apache:apache -R /var/www/html/*
+
+
+![alt tag](https://github.com/AnetoEnterprise/BurnSecurity/raw/master/image1.png)
