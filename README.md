@@ -56,16 +56,18 @@ Vous pouvez modifier le nom du dossier DestDir mais à condition d’éditer le 
 Sudo nano /var/www/cgi-bin/config.cf
 
 ![alt tag](https://github.com/AnetoEnterprise/BurnSecurity/raw/master/image2.png)
+
 Le répertoire DIR est seul qui permettra à BurnSecurity d’importer et de sécurisé les fichiers media, les deux lignes restantes convertissent le .MP3 a .K7 et .MP4 a .V7 les deux formats qui serons en lectures sécurisée avec le plugin K7Player.
 
 NB : Vous pouvez le changer a .WAV :: .K7 et .OGG :: .V7 ou .WEBM :: .V7
 
 Les trois fichiers PHP restant, vous pouvez les modifier à votre guise :
+
 ![alt tag](https://github.com/AnetoEnterprise/BurnSecurity/raw/master/image5.png)
 
 Index.php :
 
-<form enctype = "multipart/form-data" action = "/cgi-bin/burnsecurity.cgi" method = "post">
+!<form enctype = "multipart/form-data" action = "/cgi-bin/burnsecurity.cgi" method = "post">
 <p>TYPE :<select name = "typefichier">
 <option value=".MP3">.MP3</option>
 <option value=".MP4">.MP4</option>
