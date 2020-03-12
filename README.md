@@ -4,6 +4,8 @@ BurnSecurity est un système de sécurité des médias permettant aux sites inte
 Le système à deux types de sécurisation des fichiers multimédias (Audio, Vidéo et Autres) local et sur internet. Pour ceux qui utilisent BurnSecurity en local comme système de sécurisation, ils peuvent sécuriser et vendre leurs supports amovibles (CD/DVD, USB, Carte SD) aisément sans l’aide d’un site internet marchand utilisant ce système de sécurité des médias.
 
 
+
+
 Installation sous Ubuntu18 (VPS)
 
 Deziper le fichier BurnSecurityLinux.zip puis lancer votre terminal et tapez les commandes :
@@ -19,6 +21,9 @@ sudo mkdir -p /var/www/html/votresite
 cp -r ./Docs/* /var/www/html/ votresite
 
 chown www-data:www-data -R /var/www/html/*
+
+
+
 
 
 
