@@ -47,3 +47,11 @@ chown apache:apache -R /var/www/html/*
 
 
 ![alt tag](https://github.com/AnetoEnterprise/BurnSecurity/raw/master/image1.png)
+Apres cette procédure, vous verrez les fichiers et dossier ci-après :
+![alt tag](https://github.com/AnetoEnterprise/BurnSecurity/raw/master/image4.png)
+
+Vous pouvez modifier le nom du dossier DestDir mais à condition d’éditer le fichier de configuration config.cf depuis le répertoire /var/www/cgi-bin/ en tapant la commande :
+
+Sudo nano /var/www/cgi-bin/config.cf
+
+![alt tag](https://github.com/AnetoEnterprise/BurnSecurity/raw/master/image2.png)
