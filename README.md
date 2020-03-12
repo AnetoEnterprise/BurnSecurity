@@ -6,7 +6,7 @@ Le système à deux types de sécurisation des fichiers multimédias (Audio, Vid
 
 
 
-Installation sous Ubuntu18 (VPS)
+# Installation sous Ubuntu18 (VPS)
 
 Deziper le fichier BurnSecurityLinux.zip puis lancer votre terminal et tapez les commandes :
 
@@ -27,7 +27,7 @@ chown www-data:www-data -R /var/www/html/*
 
 
 
-Installation sous CentOS 7.1 (VPS)
+# Installation sous CentOS 7.1 (VPS)
 
 Deziper le fichier BurnSecurityLinux.zip puis lancer votre terminal et tapez les commandes :
 
